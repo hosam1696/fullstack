@@ -1,0 +1,30 @@
+* {
+    font-family: Sans-Serif;
+}
+
+body {
+    background-color: #222;
+    color: #eee
+}
+
+h1 {
+    text-align: center;
+}
+.blog-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.blog-post {
+    display: inline-block;
+    width: 30%;
+    background-color: #333;
+    border: #111;
+    padding: 5px 12px;
+    margin: 10px 5px;
+    min-height: 300px;
+    border-bottom: 2px solid dodgerblue;
+    transition: background-color 0.25s ease-in-out;
+}
+.blog-post:hover {
+    background-color: #111111;
+}

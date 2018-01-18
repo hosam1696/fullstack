@@ -1,0 +1,14 @@
+* {
+  font-family: Sans-Serif;
+}
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #25051d;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
